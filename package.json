@@ -1,6 +1,6 @@
 {
   "name": "prerender-jsdom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prerender static routes using jsdom",
   "author": "Chris Baker <mail.chris.baker@gmail.com>",
   "license": "MIT",
