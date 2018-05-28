@@ -9,7 +9,7 @@ const Renderer = require('@prerenderer/renderer-jsdom');
 
 const createDir = util.promisify(mkdirp);
 const writeFile = util.promisify(fs.writeFile);
-const staticDir = process.argv[2];
+const staticDir = path.resolve(process.argv[2]);
 const routes = process.argv.slice(3);
 
 const prerenderer = new Prerenderer({
